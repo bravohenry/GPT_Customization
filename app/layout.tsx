@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "Bravo Chat",
-  description: "powered by OpenAI",
+  title: "Bravo Chat Pro",
+  description: "powered by OpenAI GPT4.0",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Bravo Chat",
+    title: "Bravo Chat Pro",
     statusBarStyle: "default",
   },
 };
